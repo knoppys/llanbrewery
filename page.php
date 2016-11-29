@@ -55,5 +55,5 @@ if(is_page('events')){
 	endif;
 
 //get the footer
-	get_footer();
-	?>
+get_footer();
+?>

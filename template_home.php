@@ -66,7 +66,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		</div>
 </section>
 
-<section id="about" class="homebody home-content-row" style="background: url(<?php get_site_url() ?>'/llangollenbrewery/wp-content/themes/knoppys-abbeygrange/images/background2.jpg') no-repeat center top fixed;
+<section id="about" class="homebody home-content-row" style="background: url('<?php echo get_template_directory_uri(); ?>/images/background2.jpg') no-repeat center top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

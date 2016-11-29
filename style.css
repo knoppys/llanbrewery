@@ -4,7 +4,7 @@ Theme URI: http://www.knoppys.co.uk;
 Author: Knoppys Digital Limited
 Author URI: www.knoppys.co.uk
 Description: Custom WordPress Theme Created for the Llangollen Brewery by Knoppys Digital. 
-Version: 2.5
+Version: 2.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -430,7 +430,7 @@ a {
 }
 .second-post {
     padding-bottom: 56px;
-    padding-top: 19px;
+    padding-top: 12px;
 }
 .left-arrow {
     text-align: right;
@@ -479,7 +479,6 @@ a {
 
 .footer a {
     color: #fff;
-    font-size: 20px;
     letter-spacing: 1px;
 }
 .home-content-row {
@@ -538,6 +537,9 @@ h2.banner-page-slogan {
 .slick-slider img {
     height: auto !important;
     width: 100% !important;
+}
+.so-widget-sow-social-media-buttons-atom-f2bdfeb46b81 .sow-social-media-button {
+    padding:5px !important;
 }
 /* Media Quries */
 @media all and (max-width: 600px){
